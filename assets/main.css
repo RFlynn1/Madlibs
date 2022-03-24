@@ -1,0 +1,73 @@
+/* Font import */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;900&display=swap");
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color:  #FF69B4;
+  font-size: 3rem;
+}
+
+.intro {
+  min-height: 100vh;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(https://th.bing.com/th/id/R.e0b5d80718d6a5bb3769726003d28d54?rik=TqROy%2b5sf6S1XA&riu=http%3a%2f%2fwww.photos-public-domain.com%2fwp-content%2fuploads%2f2011%2f12%2fsky-at-sunrise.jpg&ehk=zZA5F0SdGMg0KbAF21YjgYu0cK6lk96Eud2suBWHrAU%3d&risl=&pid=ImgRaw&r=0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+input {
+  font-size: 1.1rem;
+  padding: 8px;
+  border-radius: 2px;
+  border: none;
+}
+
+.output {
+  margin-top: 10vh;
+  color: white;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background: #FF69B4;
+  padding: 8px 20px;
+  grid-column: 1 / -1;
+  text-align: center;
+  border-radius: 5px;
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+a:hover {
+  background: rgb(247, 114, 91);
+  color: white;
+  transform: scale(1.01);
+}
